@@ -1,5 +1,5 @@
 .logo-container {
-  z-index: 0;
+  z-index: 10;
   width: 400px;
   height: 609px;
   position: absolute;
@@ -9,12 +9,16 @@
   left: 500px;
   margin: auto;
   opacity: 0;
+  animation: fadeIn 2.5s 1.5s;
+  animation-fill-mode: forwards;
 
   svg {
     width: 100%;
     height: auto;
     bottom: 0;
     transform: rotateZ(30deg) !important;
+    animation: fadeOut 3s 3s;
+    animation-fill-mode: forwards;
   }
   .solid-logo {
     position: absolute;
@@ -29,6 +33,8 @@
     transform: rotateZ(30deg);
     z-index: 1;
     transform: translate(-200, -40) scale(0.8, 0.8);
+    animation: fadeIn 4s 4s;
+    animation-fill-mode: forwards;
   }
 
   .svg-logo2 {
@@ -49,7 +55,9 @@
     opacity: 0;
     transform: rotateZ(30deg);
     z-index: 1;
-    // transform: translate(-100, 0) scale(0.65, 0.65);
+    transform: translate(-100, 0) scale(0.65, 0.65);
+    animation: fadeIn 4s 4s;
+    animation-fill-mode: forwards;
   }
 }
 

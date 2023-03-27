@@ -38,8 +38,8 @@
   animation-delay: 1s;
 }
 
-.about-page,
-.contact-page {
+.container.about-page,
+.container.contact-page {
   .text-zone {
     position: absolute;
     left: 10%;
@@ -87,7 +87,7 @@
     }
 
     p {
-      font-style: 13px;
+      font-size: 15px;
       font-family: "Coolvetica";
       color: #fff;
       font-weight: 300;

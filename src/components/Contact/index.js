@@ -1,7 +1,9 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useState } from "react";
 import Loader from "react-loaders";
-import Animation from "../Animation/Animation";
+import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import Animation from "../Animation/Animation";
 import "./index.scss";
 
 const Contact = () => {
@@ -104,7 +106,23 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="info-map"></div>
+        <div className="info-map">
+          Gustavo Marengo,
+          <br />
+          Brazil,
+          <br />
+          Sorocaba - SP
+          <br />
+          <span>gu_marengo@hotmail.com</span>
+        </div>
+        <div className="map-wrap">
+          <MapContainer center={[-23.528831, -47.4751877]} zoom={15}>
+            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <Marker position={[-23.528831, -47.4751877]}>
+              <Popup>Gustavo mora aqui, venha tomar um café :)</Popup>
+            </Marker>
+          </MapContainer>
+        </div>
       </div>
       <Loader active type="pacman" />
     </>

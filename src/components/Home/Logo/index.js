@@ -1,81 +1,12 @@
 import "./index.scss";
 import LogoG from "../../../assests/images/logo-g.png";
 import LogoM from "../../../assests/images/logo-m.png";
-import { useEffect, useRef } from "react";
-import gsap from "gsap-trial";
-import DrawSVGPlugin from "gsap-trial/DrawSVGPlugin";
 
 const Logo = () => {
-  const bgRef = useRef();
-  const outlineLogoRef = useRef();
-  const outlineLogoRef2 = useRef();
-  const solidLogoRef = useRef();
-  const solidLogoRef2 = useRef();
-
-  useEffect(() => {
-    gsap.registerPlugin(DrawSVGPlugin);
-
-    gsap
-      .timeline()
-      .to(bgRef.current, {
-        duration: 1,
-        opacity: 1,
-      })
-      .from(outlineLogoRef.current, {
-        drawSVG: 0,
-        duration: 20,
-      });
-    gsap.fromTo(
-      solidLogoRef.current,
-      {
-        opacity: 0,
-      },
-      {
-        opacity: 1,
-        delay: 4,
-        duration: 4,
-      }
-    );
-    gsap.fromTo(
-      solidLogoRef2.current,
-      {
-        opacity: 0,
-      },
-      {
-        opacity: 1,
-        delay: 4,
-        duration: 4,
-      }
-    );
-    gsap.fromTo(
-      outlineLogoRef.current,
-      {
-        opacity: 1,
-      },
-      {
-        opacity: 0,
-        delay: 4,
-        duration: 4,
-      }
-    );
-    gsap.fromTo(
-      outlineLogoRef2.current,
-      {
-        opacity: 1,
-      },
-      {
-        opacity: 0,
-        delay: 4,
-        duration: 4,
-      }
-    );
-  }, []);
-
   return (
-    <div className="logo-container" ref={bgRef}>
-      <img ref={solidLogoRef} src={LogoG} alt="logo_G" className="solid-logo" />
+    <div className="logo-container">
+      <img src={LogoG} alt="logo_G" className="solid-logo" />
       <svg
-        ref={outlineLogoRef}
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
         width="559pt"
@@ -161,15 +92,9 @@ const Logo = () => {
           ></path>
         </g>
       </svg>
-      <img
-        ref={solidLogoRef2}
-        src={LogoM}
-        alt="logo_M"
-        className="solid-logo2"
-      />
+      <img src={LogoM} alt="logo_M" className="solid-logo2" />
       <svg
         className="svg-logo2"
-        ref={outlineLogoRef2}
         version="1.0"
         xmlns="http://www.w3.org/2000/svg"
         width="559pt"
