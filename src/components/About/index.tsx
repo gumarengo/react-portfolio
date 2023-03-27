@@ -33,30 +33,26 @@ const About = () => {
             />
           </h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Consectetur asperiores exercitationem est quasi, reiciendis
-            voluptate enim, tenetur quae ipsam totam delectus necessitatibus
-            sed. Quibusdam omnis corporis dolorem provident, molestiae a?
-            {/* I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects. */}
+            Como um desenvolvedor front-end altamente ambicioso, estou em busca
+            de uma oportunidade desafiadora em uma empresa de TI. Estou ansioso
+            para trabalhar em projetos diversificados e empolgantes com as
+            tecnologias mais recentes, aprimorando minhas habilidades e
+            agregando valor à equipe. Com minha paixão pela programação, estou
+            confiante de que posso contribuir para o sucesso da empresa enquanto
+            continuo a crescer profissionalmente. Estou pronto para assumir o
+            desafio e levar minhas habilidades para o próximo nível.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            placeat corrupti voluptatem adipisci blanditiis recusandae inventore
-            neque pariatur fuga nisi porro alias cumque sapiente laborum quidem
-            ut atque cum ea?
-            {/* I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time. */}
-          </p>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nam
-            eos facilis recusandae odit odio. Perferendis magnam nihil ipsa
-            omnis quia optio, odio illum accusantium alias iusto dolore dicta
-            aut?
-            {/* If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!! */}
+            Sou um profissional confiante, porém tranquilo, que tem uma
+            curiosidade natural pela vida e sempre busca aprimorar minhas
+            habilidades de design. Com um olhar atento aos detalhes e uma
+            abordagem centrada no problema, enfrento cada desafio com
+            determinação e perseverança. Acredito que cada projeto oferece uma
+            oportunidade única de aprendizado e aprimoramento, e estou sempre
+            empenhado em melhorar minhas habilidades de design para oferecer
+            soluções criativas e eficazes. Estou animado para enfrentar novos
+            desafios e trabalhar em projetos que me permitam crescer pessoal e
+            profissionalmente.
           </p>
         </div>
 

@@ -79,3 +79,13 @@
     transform: rotateX(90deg);
   }
 }
+
+@media screen and (max-width: 850px) {
+  .stage-cube-cont {
+    top: 680px;
+    overflow: hidden;
+    bottom: 0;
+    position: relative;
+    left: 150px;
+  }
+}

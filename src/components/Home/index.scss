@@ -6,6 +6,8 @@
     transform: translateY(-50%);
     width: 40%;
     max-height: 90%;
+    min-width: 400px;
+    z-index: 99999;
   }
   h1 {
     color: #fff;
@@ -79,5 +81,22 @@ h2 {
   &:hover {
     background: #ffd700;
     color: #333;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    overflow: visible;
+  }
+  .home-page {
+    .text-zone {
+      position: absolute;
+      left: 20%;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 40%;
+      max-height: 90%;
+      min-width: 400px;
+    }
   }
 }

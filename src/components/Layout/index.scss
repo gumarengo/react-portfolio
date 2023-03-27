@@ -87,7 +87,7 @@
     }
 
     p {
-      font-size: 15px;
+      font-size: 18px;
       font-family: "Coolvetica";
       color: #fff;
       font-weight: 300;
@@ -109,6 +109,19 @@
   .text-animate-hover {
     &:hover {
       color: #fff;
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .container.about-page {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    left: 40px;
+
+    .text-zone p {
+      font-size: 13px;
     }
   }
 }

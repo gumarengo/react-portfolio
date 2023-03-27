@@ -149,9 +149,18 @@
     margin: 0;
     width: 50%;
     height: 400px;
+    opacity: 0;
   }
 
-  .info-map {
-    transform: scale(0.7);
+  .container.contact-page {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: flex-end;
+
+    .info-map {
+      transform: scale(0.7);
+      display: none;
+    }
   }
 }
