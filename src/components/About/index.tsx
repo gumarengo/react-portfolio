@@ -33,18 +33,30 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Consectetur asperiores exercitationem est quasi, reiciendis
+            voluptate enim, tenetur quae ipsam totam delectus necessitatibus
+            sed. Quibusdam omnis corporis dolorem provident, molestiae a?
+            {/* I'm very ambitious front-end developer looking for a role in
             established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            technologies on challenging and diverse projects. */}
           </p>
           <p>
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
+            placeat corrupti voluptatem adipisci blanditiis recusandae inventore
+            neque pariatur fuga nisi porro alias cumque sapiente laborum quidem
+            ut atque cum ea?
+            {/* I'm quietly confident, naturally curious, and perpetually working on
+            improving my chops one design problem at a time. */}
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sunt nam
+            eos facilis recusandae odit odio. Perferendis magnam nihil ipsa
+            omnis quia optio, odio illum accusantium alias iusto dolore dicta
+            aut?
+            {/* If I need to define myself in one sentence that would be a family
             person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            photography enthusiast, and tech-obsessed!!! */}
           </p>
         </div>
 

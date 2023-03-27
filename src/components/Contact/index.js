@@ -66,9 +66,13 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic at
+            aspernatur, repellendus pariatur nam commodi ad dolores placeat,
+            nihil cupiditate minus! Nam quod consectetur dolores dolore
+            doloremque eligendi necessitatibus sapiente!
+            {/* I'm very ambitious front-end developer looking for a role in
             established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            technologies on challenging and diverse projects. */}
           </p>
           <div className="contact-form">
             <form ref={refForm} onSubmit={sendEmail}>
