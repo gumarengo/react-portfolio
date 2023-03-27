@@ -1,0 +1,59 @@
+.logo-container {
+  z-index: 0;
+  width: 400px;
+  height: 609px;
+  position: absolute;
+  top: 0;
+  right: 15%;
+  bottom: 0;
+  left: 500px;
+  margin: auto;
+  opacity: 0;
+
+  svg {
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    transform: rotateZ(30deg) !important;
+  }
+  .solid-logo {
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: 0;
+    margin: auto;
+    margin-top: -40px;
+    width: 100%;
+    opacity: 0;
+    transform: rotateZ(30deg);
+    z-index: 1;
+    transform: translate(-200, -40) scale(0.8, 0.8);
+  }
+
+  .svg-logo2 {
+    margin-top: -550px;
+    margin-left: 400px;
+  }
+  .solid-logo2 {
+    margin-top: -150px;
+    margin-left: 400px;
+    position: absolute;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    top: 80px;
+    left: 450px;
+    width: 460px;
+    margin: auto;
+    opacity: 0;
+    transform: rotateZ(30deg);
+    z-index: 1;
+    // transform: translate(-100, 0) scale(0.65, 0.65);
+  }
+}
+
+.svg-container {
+  stroke: #ffd700;
+  stroke-width: 10px;
+}
