@@ -13,7 +13,7 @@
   color: #ffd700;
   opacity: 0.6;
   position: absolute;
-  bottom: 0;
+  bottom: 5px;
   left: 120px;
   font-size: 18px;
   font-family: "Consolas";
@@ -113,13 +113,28 @@
   }
 }
 
-@media screen and (max-width: 850px) {
-  .container.about-page {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    left: 40px;
+@media screen and (max-width: 1200px) {
+  .page {
+    position: initial;
+  }
 
+  .container {
+    position: initial;
+    height: auto;
+    min-height: auto;
+
+    &.about-page,
+    &.contact-page,
+    &.portfolio-page {
+      .text-zone {
+        position: initial;
+        transform: none;
+        width: 100%;
+        display: block;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+    }
     .text-zone p {
       font-size: 13px;
     }

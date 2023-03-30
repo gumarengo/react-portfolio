@@ -1,22 +1,26 @@
 export const portfolio = [
   {
-    cover: require("../assests/portfolio-img/one.png"),
-    title: "GGWP",
-    description: "React, JSX, Tailwind, Jest",
-    url: "http://google.com",
+    cover: require("../assests/portfolio-img/react-todo-list.jpg"),
+    title: "React ToDo List",
+    description: "React, JavaScript, HTML, CSS",
+    url: "https://gumarengo.github.io/react-todo-list/",
   },
   {
-    cover:
-      "https://t.ctcdn.com.br/essK16aBUDd_65hp5umT3aMn_i8=/400x400/smart/filters:format(webp)/i606944.png",
-    title: "GGWP",
-    description: "React, JSX, Tailwind, Jest",
-    url: "http://google.com",
+    cover: require("../assests/portfolio-img/js-todo-list.jpg"),
+    title: "JavaScript Todo List using local storage",
+    description: "JavaScript, HTML, CSS",
+    url: "https://gumarengo.github.io/ToDoList/ToDoList/",
   },
   {
-    cover:
-      "https://t.ctcdn.com.br/essK16aBUDd_65hp5umT3aMn_i8=/400x400/smart/filters:format(webp)/i606944.png",
-    title: "GGWP",
-    description: "React, JSX, Tailwind, Jest",
-    url: "http://google.com",
+    cover: require("../assests/portfolio-img/signUp.jpg"),
+    title: "SignUp and SignIn form",
+    description: "HTML, CSS",
+    url: "https://gumarengo.github.io/LoginAndRegistration/",
+  },
+  {
+    cover: require("../assests/portfolio-img/secret-word.jpg"),
+    title: "Guess the Word gameshow",
+    description: "React, JavaScript, HTML, CSS",
+    url: "https://gumarengo.github.io/secret-word/",
   },
 ];

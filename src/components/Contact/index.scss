@@ -145,22 +145,12 @@
 
 @media screen and (max-width: 1200px) {
   .map-wrap {
-    float: right;
-    margin: 0;
-    width: 50%;
+    float: none;
+    width: 100%;
     height: 400px;
-    opacity: 0;
+    margin: 0;
   }
-
-  .container.contact-page {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    justify-content: flex-end;
-
-    .info-map {
-      transform: scale(0.7);
-      display: none;
-    }
+  .info-map {
+    display: none;
   }
 }

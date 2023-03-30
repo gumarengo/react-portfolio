@@ -42,7 +42,6 @@
     img {
       margin-bottom: -2px;
       width: 32px;
-      //   margin-left: 20px;
       opacity: 0;
       height: auto;
       animation: rotateIn 1s linear both;
@@ -85,18 +84,79 @@ h2 {
 }
 
 @media screen and (max-width: 1200px) {
-  body {
-    overflow: visible;
+  .tags,
+  .home-page h1::before,
+  .home-page h1::after {
+    display: none;
   }
+
   .home-page {
     .text-zone {
-      position: absolute;
-      left: 20%;
-      top: 50%;
-      transform: translateY(-50%);
-      width: 40%;
-      max-height: 90%;
-      min-width: 400px;
+      position: initial;
+      width: 100%;
+      transform: none;
+      padding: 5px;
+      box-sizing: border-box;
+    }
+    h1 {
+      font-size: 45px;
+    }
+
+    .flat-button {
+      float: none;
+      display: block;
+      margin: 20px auto 0 auto;
+      width: 150px;
+    }
+
+    .logo-container {
+      position: relative;
+      width: 100px;
+      height: auto;
+      top: 50px;
+      right: 0;
+      box-sizing: border-box;
+      margin: auto;
+      left: 0;
+
+      svg {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: -100px;
+        margin: auto;
+      }
+      .svg-logo2 {
+        position: absolute;
+        top: 20px;
+        right: auto;
+        bottom: auto;
+        left: 30px;
+        margin: auto;
+        width: 100%;
+      }
+
+      .solid-logo {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: -100px;
+        margin: auto;
+        margin-top: -40px;
+        width: 100%;
+      }
+
+      .solid-logo2 {
+        position: absolute;
+        top: -5px;
+        right: auto;
+        bottom: auto;
+        left: 30px;
+        margin: auto;
+        width: 125%;
+      }
     }
   }
 }

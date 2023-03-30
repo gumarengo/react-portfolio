@@ -18,47 +18,27 @@ const Portfolio = () => {
     };
   }, []);
 
-  //   const renderPortfolio = (portfolio) => {
-  //     return (
-  //       <div className="images-container">
-  //         {portfolio.map((port, i) => {
-  //           return (
-  //             <div className="image-box" key={i}>
-  //               <img
-  //                 src={port.cover}
-  //                 alt="project image"
-  //                 className="portfolio-image"
-  //               />
-  //             </div>
-  //           );
-  //         })}
-  //       </div>
-  //     );
-  //   };
-
   const renderPortfolio = (portfolio) => {
     return (
       <div className="images-container">
         {portfolio.map((port, idx) => {
           return (
             <div className="image-box" key={idx}>
-              {port.description}
+              {port.title}
               <br />
               <img
                 src={port.cover}
-                // "https://t.ctcdn.com.br/essK16aBUDd_65hp5umT3aMn_i8=/400x400/smart/filters:format(webp)/i606944.png"
                 className="portfolio-image"
                 alt="portfolio"
               />
 
-              {/* <div className="content">
-                                <p className="title">{port.name}</p>
-                                <h4 className="description">{port.description}</h4>
-                                <button
-                                    className="btn"
-                                    onClick={() => window.open(port.url)}
-                                >View</button>
-                            </div> */}
+              <div className="content">
+                <p className="title">{port.title}</p>
+                <h4 className="description">{port.description}</h4>
+                <button className="btn" onClick={() => window.open(port.url)}>
+                  Abrir
+                </button>
+              </div>
             </div>
           );
         })}
@@ -77,7 +57,6 @@ const Portfolio = () => {
           />
         </h1>
         <div>{renderPortfolio(portfolio)}</div>
-        <h1>GUSTAVO TESTE</h1>
       </div>
       <Loader type="pacman" />
     </>
