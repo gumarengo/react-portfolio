@@ -56,6 +56,7 @@ const Sidebar = () => {
         >
           <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
         </NavLink>
+
         <FontAwesomeIcon
           onClick={() => setShowNav(false)}
           icon={faClose}
